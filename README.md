@@ -1,2 +1,3 @@
 # Dinosaur-Generator-App
-A simple node app
+
+I'm building a basic web app using Node.js (Express.js) loading external API data using asynchronous JavaScript.
