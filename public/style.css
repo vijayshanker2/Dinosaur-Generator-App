@@ -1,0 +1,68 @@
+.body{
+    text-align: center;
+    background-color:rgb(167, 230, 167)
+}
+
+.banner{
+    text-align: center;
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(93, 110, 66);
+    width: 50%;
+    padding: 1px;
+    border-radius: 20px;
+}
+.banner>.heading{
+    font-size: 90px;
+    font-family: Garamond;
+    color: rgb(217, 230, 197);
+}
+
+.buttton-div{
+    margin-top: 1%;
+    text-align: center;
+}
+
+.buttton-div>.generate-btn{
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+    color:white;
+    background-color: #425e42;
+}
+
+.buttton-div>.generate-btn:hover {
+    background-color: #263626;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    cursor:pointer;
+  }
+
+  .buttton-div>.generate-btn:active {
+    background-color: #425e42;
+    box-shadow:  0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    transform: translateY(4px);
+  }
+
+  .dinosaur>.name{
+    font-family: 'Otomanopee One', cursive;
+    font-size: 50px;
+    color: #425e42;
+  }
+
+  .dinosaur>.image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 450px;
+    width: auto;
+    border-radius: 30px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    transition-duration: 0.4s;
+    }
+
+    .dinosaur>.image:hover{
+        transform: translateY(4px);
+    }

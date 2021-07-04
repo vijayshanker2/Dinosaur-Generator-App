@@ -1,0 +1,27 @@
+{
+  "name": "dinosaur-generator-app",
+  "version": "1.0.0",
+  "description": "I'm building a basic web app using Node.js (Express.js) loading external API data using asynchronous JavaScript.",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vijayshanker2/Dinosaur-Generator-App.git"
+  },
+  "author": "Vijay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vijayshanker2/Dinosaur-Generator-App/issues"
+  },
+  "homepage": "https://github.com/vijayshanker2/Dinosaur-Generator-App#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.9"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1"
+  }
+}
